@@ -14,3 +14,18 @@ C:\Users\ROOT\source\repos\TurkoBey\TurkoBey.EzanVakti\bin\Debug\Namaz Vakti.pdb
 C:\Users\ROOT\source\repos\TurkoBey\TurkoBey.EzanVakti\obj\Debug\Namaz Vakti.exe
 C:\Users\ROOT\source\repos\TurkoBey\TurkoBey.EzanVakti\obj\Debug\Namaz Vakti.pdb
 C:\Users\ROOT\source\repos\TurkoBey\TurkoBey.EzanVakti\obj\Debug\TurkoBey.EzanVakti.Forms.SettingForm.resources
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\obj\Debug\TurkoBey.EzanVakti.csproj.AssemblyReference.cache
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\obj\Debug\TurkoBey.EzanVakti.csproj.SuggestedBindingRedirects.cache
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\obj\Debug\TurkoBey.EzanVakti.Forms.HomeForm.resources
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\obj\Debug\TurkoBey.EzanVakti.Properties.Resources.resources
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\obj\Debug\TurkoBey.EzanVakti.csproj.GenerateResource.cache
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\obj\Debug\TurkoBey.EzanVakti.csproj.CoreCompileInputs.cache
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\obj\Debug\Namaz Vakti.exe
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\obj\Debug\Namaz Vakti.pdb
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\bin\Debug\Namaz Vakti.exe.config
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\bin\Debug\Namaz Vakti.exe
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\bin\Debug\Namaz Vakti.pdb
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\bin\Debug\HtmlAgilityPack.xml
+C:\Users\ROOT\Documents\GitHub\TurkoBey.EzanVakti\TurkoBey.EzanVakti\obj\Debug\TurkoBey.EzanVakti.csproj.CopyComplete

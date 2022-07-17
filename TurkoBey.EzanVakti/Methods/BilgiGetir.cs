@@ -151,5 +151,42 @@ namespace TurkoBey.EzanVakti.Methods
 
             return Imsak + Gunes + Ogle + Ikindi + Aksam + Yatsi + MiladiTarih + HicriTarih + Saat + KibleAcisi + KibleZamani + AstronomikGunesDogus + AstronomikGunesBatis;
         }
+
+
+
+        //Çekilen Verileri Ekrana Yazdırır
+        #region EkranaVeriYazdır
+        public static void EkranaYazdir(BilgiGetir bilgiGetir, Label labelImsak, Label labelGunes, Label labelOgle, Label labelIkindi, Label labelAksam, Label labelYatsi,
+            Label labelMiladi, Label labelHicri, Label labelKibleAcisi, Label labelKibleZamani, Label labelastronomikGunesDogus, Label labelastronomikGunesBatis,
+            Label labelSaat, Label labelFormTitle, ComboBox comboBoxIl, ComboBox comboBoxIlce, Label labelEzanaKalanSure)
+        {
+            labelImsak.Text = bilgiGetir.Imsak;
+            labelGunes.Text = bilgiGetir.Gunes;
+            labelOgle.Text = bilgiGetir.Ogle;
+            labelIkindi.Text = bilgiGetir.Ikindi;
+            labelAksam.Text = bilgiGetir.Aksam;
+            labelYatsi.Text = bilgiGetir.Yatsi;
+
+            labelMiladi.Text = bilgiGetir.MiladiTarih;
+            labelHicri.Text = bilgiGetir.HicriTarih;
+
+            labelKibleAcisi.Text = bilgiGetir.KibleAcisi;
+            labelKibleZamani.Text = bilgiGetir.KibleZamani;
+            labelastronomikGunesDogus.Text = bilgiGetir.AstronomikGunesDogus;
+            labelastronomikGunesBatis.Text = bilgiGetir.AstronomikGunesBatis;
+
+            labelSaat.Text = bilgiGetir.Saat;
+
+            if (comboBoxIl.SelectedItem != null)
+            {
+                labelFormTitle.Text = Metinler.Title + " [ " + comboBoxIl.SelectedItem.ToString() + " - " + comboBoxIlce.SelectedItem.ToString() + " ]";
+            }
+            else
+            {
+                labelFormTitle.Text = Metinler.Title + " [ ISTANBUL - ISTANBUL ]";
+            }
+            labelEzanaKalanSure.Text = bilgiGetir.lblEzanaKalanSure;
+        }
+        #endregion
     }
 }

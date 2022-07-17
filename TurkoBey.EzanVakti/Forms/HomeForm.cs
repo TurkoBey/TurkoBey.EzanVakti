@@ -93,7 +93,7 @@ namespace TurkoBey.EzanVakti.Forms
             {
                 this.Text = Metinler.Title + " [ ISTANBUL - ISTANBUL ]";
             }
-            lblEzanaKalanSure.Text = bilgiGetir.lblEzanaKalanSure;
+            //lblEzanaKalanSure.Text = bilgiGetir.lblEzanaKalanSure;
         }
         #endregion
 
@@ -106,8 +106,7 @@ namespace TurkoBey.EzanVakti.Forms
 
         private void btnAyarlar_Click(object sender, EventArgs e)
         {
-            SettingForm settingForm = new SettingForm();
-            settingForm.ShowDialog();   
+
         }
         #endregion
 
@@ -125,13 +124,6 @@ namespace TurkoBey.EzanVakti.Forms
             if (cBoxIl.Text == "ANKARA")
             {
                 foreach (string item in Ankara.IlceIsimleri)
-                {
-                    cBoxIlce.Items.Add(item.ToString());
-                }
-            }
-            else if (cBoxIl.Text == "CORUM")
-            {
-                foreach (string item in Corum.IlceIsimleri)
                 {
                     cBoxIlce.Items.Add(item.ToString());
                 }
@@ -177,23 +169,6 @@ namespace TurkoBey.EzanVakti.Forms
                 else if (cBoxIlce.SelectedItem.ToString() == "NALLIHAN") { bilgiGetir.SehirVeriCek("9219"); Yazdir(bilgiGetir); }
                 else if (cBoxIlce.SelectedItem.ToString() == "POLATLI") { bilgiGetir.SehirVeriCek("9220"); Yazdir(bilgiGetir); }
                 else if (cBoxIlce.SelectedItem.ToString() == "SEREFLIKOCHISAR") { bilgiGetir.SehirVeriCek("9221"); Yazdir(bilgiGetir); }
-            }
-            else if (cBoxIl.SelectedItem.ToString() == "CORUM")
-            {
-                if (cBoxIlce.SelectedItem.ToString() == "ALACA") { bilgiGetir.SehirVeriCek("9367"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "BAYAT") { bilgiGetir.SehirVeriCek("9368"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "BOGAZKALE") { bilgiGetir.SehirVeriCek("9369"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "CORUM") { bilgiGetir.SehirVeriCek("9370"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "DODURGA") { bilgiGetir.SehirVeriCek("9371"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "ISKILIP") { bilgiGetir.SehirVeriCek("9372"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "KARGI") { bilgiGetir.SehirVeriCek("9373"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "LACIN") { bilgiGetir.SehirVeriCek("9374"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "MECITOZU") { bilgiGetir.SehirVeriCek("9375"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "OGUZLAR") { bilgiGetir.SehirVeriCek("9376"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "ORTAKOY") { bilgiGetir.SehirVeriCek("9377"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "OSMANCIK") { bilgiGetir.SehirVeriCek("9378"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "SUNGURLU") { bilgiGetir.SehirVeriCek("9379"); Yazdir(bilgiGetir); }
-                else if (cBoxIlce.SelectedItem.ToString() == "UGURLUDAG") { bilgiGetir.SehirVeriCek("9380"); Yazdir(bilgiGetir); }
             }
             else if (cBoxIl.SelectedItem.ToString() == "ISTANBUL")
             {

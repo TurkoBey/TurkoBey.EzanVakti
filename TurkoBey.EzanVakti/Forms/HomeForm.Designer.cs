@@ -527,7 +527,6 @@
             this.cBoxIl.FormattingEnabled = true;
             this.cBoxIl.Items.AddRange(new object[] {
             "ANKARA",
-            "CORUM",
             "ISTANBUL",
             "IZMIR"});
             this.cBoxIl.Location = new System.Drawing.Point(22, 14);
@@ -569,9 +568,9 @@
             this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label21.Location = new System.Drawing.Point(188, 16);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(217, 24);
+            this.label21.Size = new System.Drawing.Size(227, 24);
             this.label21.TabIndex = 7;
-            this.label21.Text = "İkindi Ezanına Kalan Süre";
+            this.label21.Text = "***** Ezanına Kalan Süre";
             // 
             // panel12
             // 
